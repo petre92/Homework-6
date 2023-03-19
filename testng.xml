@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation Suite" verbose="1" thread-count="3" parallel="tests">
+    <test name="Registration" parallel="tests">
+        <classes>
+            <class name="Ee_ge"/>
+        </classes>
+    </test>
+    <test name="Registration empty fields" parallel="tests">
+        <classes>
+            <class name="Ee_ge2"/>
+        </classes>
+    </test>
+    <test name="Busket" parallel="tests">
+        <classes>
+            <class name="Ee_ge3"/>
+        </classes>
+    </test>
+</suite>
